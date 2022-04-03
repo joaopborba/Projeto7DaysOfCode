@@ -1,0 +1,83 @@
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo p{
+    padding-left: 1rem;
+}
+
+.optionsHeader {
+    display: flex;
+    align-items: center;
+}
+
+.optionsHeader a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btnHeader button{
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem 1rem;
+    background: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+#btnCadastrar{
+    background-color: #8E2424;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 2rem;
+}
+.cabecalho span{
+    color: var(--main-color);
+    font-weight: 900;
+}
+
+.cabecalho h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cabecalho p{
+    color: var(--text-color);
+    text-align: center;
+}
